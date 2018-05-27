@@ -1,91 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-	<title>Iphone Calculator</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Iphone Calculator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-	<div class="phone">
+  <main>
+    <div class="phone">
 
-		<div class="firstButton"></div>
-		<div class="button secondButton"></div>
-		<div class="button thirdButton"></div>
-		<div class="button2 fourthButton"></div>
+      <div class="firstButton"></div>
+      <div class="button secondButton"></div>
+      <div class="button thirdButton"></div>
+      <div class="button2 rightButton"></div>
 
-		<div class="frame">
+      <div class="frame">
 
-			<div class="topPart">
-				<div class="camera"></div>
-				<div class="speaker"></div>
-			</div>
+        <div class="topPart">
+          <div class="camera"></div>
+          <div class="speaker"></div>
+        </div>
 
-			<div class="screen">
+        <div class="screen">
+          <div class="info">
 
-				<div class="info">
-					<div class="signal">
-						<i class="fa fa-plane fa-rotate-45" aria-hidden="true"></i>
-					</div>
-					<div class="time"></div>
-					<div class="battery">
-						100% <i class="fa fa-battery-full" aria-hidden="true"></i>
-					</div>
-				</div>
+            <div class="signal">
+              <i class="fa fa-plane fa-rotate-45" aria-hidden="true"></i>
+            </div>
 
-				<div class="resultBox" id="calcOutput">
-					<span id="steps">0</span>
-				</div>
+            <div class="time"></div>
 
-				<div class="calcButtons" id="calculator">
+            <div class="battery">
+              100% <i class="fa fa-battery-full" aria-hidden="true"></i>
+            </div>
 
-					<button class="calcButton darkgrey" id="deleteAll">AC</button>
-					<button class="calcButton darkgrey" id="backOne">CE</button>
-					<button class="calcButton darkgrey" id="">%</button>
-					<button class="calcButton orange" id="/">÷</button>
+          </div>
 
-					<button class="calcButton lightgrey" id="7">7</button>
-					<button class="calcButton lightgrey" id="8">8</button>
-					<button class="calcButton lightgrey" id="9">9</button>
-					<button class="calcButton orange" id="*">x</button>
+          <div class="resultBox" id="calcOutput">
+            <span id="steps">0</span>
+          </div>
 
-					<button class="calcButton lightgrey" id="4">4</button>
-					<button class="calcButton lightgrey" id="5">5</button>
-					<button class="calcButton lightgrey" id="6">6</button>
-					<button class="calcButton orange subSymbol" id="-">--</button>
+          <div class="calcButtons" id="calculator">
+            <button class="calcButton darkgrey" id="deleteAll">AC</button>
+            <button class="calcButton darkgrey" id="backOne">CE</button>
+            <button class="calcButton darkgrey" id="">%</button>
+            <button class="calcButton orange" id="/">÷</button>
 
-					<button class="calcButton lightgrey" id="1">1</button>
-					<button class="calcButton lightgrey" id="2">2</button>
-					<button class="calcButton lightgrey" id="3">3</button>
-					<button class="calcButton orange" id="/">+</button>
+            <button class="calcButton lightgrey" id="7">7</button>
+            <button class="calcButton lightgrey" id="8">8</button>
+            <button class="calcButton lightgrey" id="9">9</button>
+            <button class="calcButton orange" id="*">x</button>
 
-					<button class="calcButton button0 lightgrey" id="0">0</button>
-					<button class="calcButton lightgrey" id=".">,</button>
-					<button class="calcButton orange" id="total">=</button>
+            <button class="calcButton lightgrey" id="4">4</button>
+            <button class="calcButton lightgrey" id="5">5</button>
+            <button class="calcButton lightgrey" id="6">6</button>
+            <button class="calcButton orange subSymbol" id="-">--</button>
 
-				</div>
+            <button class="calcButton lightgrey" id="1">1</button>
+            <button class="calcButton lightgrey" id="2">2</button>
+            <button class="calcButton lightgrey" id="3">3</button>
+            <button class="calcButton orange" id="/">+</button>
 
-			</div>
+            <button class="calcButton button0 lightgrey" id="0">0</button>
+            <button class="calcButton lightgrey" id=".">,</button>
+            <button class="calcButton orange" id="total">=</button>
+          </div><!-- #calculator -->
 
-			<div class="topPart">
-				<div class="homeButton"></div>
-			</div>
-		
-		</div>
+        </div><!-- .screen -->
 
-	</div>
+        <div class="topPart">
+          <div class="homeButton"></div>
+        </div>
 
-	<div class="footer">
+      </div><!-- .frame -->
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer">
       Designed & Coded by
       <a href="https://www.angelopalmieri.com" target="_blank">
           Angelo Palmieri</a>
     </div>
+  </footer>
 
-	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
-	<script src="https://use.fontawesome.com/736c59a21e.js"></script>
-	<script type="text/javascript" src="time.js"></script>
-	<script type="text/javascript" src="calculator.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/736c59a21e.js"></script>
+  <script type="text/javascript" src="time.js"></script>
+  <script type="text/javascript" src="calculator.js"></script>
 
 </body>
 </html>
